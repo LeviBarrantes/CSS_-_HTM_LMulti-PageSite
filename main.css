@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+}
+
+nav{
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+ align-items: center;
+ justify-content:space-evenly ;
+ font-size: 20px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ padding: 20px;
+
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: lightcoral;
+}
+
+.logo{
+  background-color: red;
+  padding: 20px 30px;
+  
+}
+
+.search{
+  height: 12px;
+  filter:brightness(0) invert(1);
+}
+
+.search_button{
+  float: left;
+  background-color: red;
+  margin-top: 8px;
+  margin-right: 16px;
+  padding: 9px 10px;
+}
+nav input[type=text] {
+  float: left;
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-right:0;
+  font-size: 17px;
+}
+
+.shopingFlex{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+.cartText{
+  font-size: 15px;
+}
+
+.shoppingCart{
+   height: 20px;
+   filter:brightness(0) invert(1)
+  
+  
+}
+
+
+.pic {
+  width: 100%;
+  height: 400px;
+  background: url('./src/cr.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.pic h2, .pic p ul li {
+  margin-bottom: 10px;
+}
+h1 {
+  text-shadow:2px 2px;
+  color: white;
+  
+}
+h2{
+  
+  color: white
+}
+
+
+.cr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-bottom: 20px;
+  background-color: #f5eef3;
+}
+
+.cr img {
+  width: 280px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.cr h3 {
+  margin-bottom: 5px;
+}
+
+
+.pic1 {
+  width: 100%;
+  height: 400px;
+  background: url('./src/bus.png') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.pic1 h2, .pic1 p  {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+ align-items: center;
+ justify-content:space-evenly ;
+ font-size: 20px;
+ padding: 20px;
+ margin-bottom: 30px;
+
+}
+
+
+
+
+
